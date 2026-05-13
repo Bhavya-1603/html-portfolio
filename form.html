@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+
+<body bgcolor="#f2f2f2">
+
+    <centre>
+
+        <h2>Spring Afternoon Schedule</h2>
+        <table border="5" cellspacing="0" cellpadding="10">
+
+        <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+
+        <tr>
+            <th>1:00</th>
+            <td rowspan="2" bgcolor="orange">Office</td>
+            <td></td>
+            <td rowspan="2" bgcolor="orange">Office</td>
+            <td rowspan="8" bgcolor="orange">Office Hours by Appt</td>
+            <td rowspan="2" bgcolor="orange">Office</td>
+        </tr>
+
+        <tr>
+            <th>1:30</th>
+            <td rowspan="2" bgcolor="grey">Dept Meeting</td>
+        </tr>
+
+        <tr>
+            <th>2:00</th>
+            <td rowspan="3" bgcolor="lightgreen">MAT 108</td>
+            <td rowspan="3" bgcolor="lightgreen">MAT 108</td>
+            <td rowspan="3" bgcolor="lightgreen">MAT 108</td>
+        </tr>
+
+        <tr>
+            <th>2:30</th>
+            <td></td>
+            </td>
+        </tr>
+
+        <tr>
+            <th>3:00</th>
+            <td rowspan="3" bgcolor="grey"> EC Meeting</td>
+            </td>
+        </tr>
+
+        <tr>
+            <th>3:30</th>
+            <td rowspan="3" bgcolor="pink">CSC 205</td>
+            <td rowspan="3" bgcolor="pink">CSC 205</td>
+            <td rowspan="3" bgcolor="pink">CSC 205</td>
+        </tr>
+
+        <tr>
+            <th>4:00</th>
+        </tr>
+
+        <tr>
+            <td>4:30</td>
+            <td></td>
+        </tr>
+
+
+            <tr>
+
+    </table>
+
+    
+
+    </centre>
+    
+
+    <!--<center>
+
+        <header>
+            <h1>Job Application Form</h1>
+            <p>
+                Complete this application form carefully and submit your details.
+            </p>
+        </header>
+
+        <hr width="80%">
+
+        <main>
+
+            <form>
+
+                <!-- Personal Information -->
+                <!--<fieldset width="80%">
+                    <legend><b>Personal Information</b></legend>
+
+                    <table cellpadding="10" width="80%">
+
+                        <tr>
+                            <td>
+                                <label>Full Name</label><br>
+                                <input type="text" placeholder="Enter your full name" required>
+                            </td>
+
+                            <td>
+                                <label>Upload Profile Photo</label><br>
+                                <input type="file" accept="image/*" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Email Address</label><br>
+                                <input type="email" placeholder="example@gmail.com" required>
+                            </td>
+
+                            <td>
+                                <label>Phone Number</label><br>
+                                <input type="tel" placeholder="Enter phone number" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Date of Birth</label><br>
+                                <input type="date" required>
+                            </td>
+
+                            <td>
+                                <label>Gender</label><br>
+
+                                <input type="radio" name="gender"> Male
+                                <input type="radio" name="gender"> Female
+                                <input type="radio" name="gender"> Other
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <label>Address</label><br>
+                                <textarea rows="4" cols="80" placeholder="Enter your address"></textarea>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>City</label><br>
+                                <input type="text" placeholder="Enter city">
+                            </td>
+
+                            <td>
+                                <label>Country</label><br>
+                                <input type="text" placeholder="Enter country">
+                            </td>
+                        </tr>
+
+                    </table>
+                </fieldset>
+
+                <br>
+
+                <!-- Educational Details -->
+                <!--<fieldset>
+                    <legend><b>Educational Details</b></legend>
+
+                    <table cellpadding="10" width="80%">
+
+                        <tr>
+                            <td>
+                                <label>Highest Qualification</label><br>
+
+                                <select required>
+                                    <option>Select</option>
+                                    <option>High School</option>
+                                    <option>Diploma</option>
+                                    <option>Bachelor Degree</option>
+                                    <option>Master Degree</option>
+                                </select>
+                            </td>
+
+                            <td>
+                                <label>College / University</label><br>
+                                <input type="text" placeholder="College Name">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Skills</label><br>
+                                <input type="text" placeholder="HTML, Java, Python">
+                            </td>
+
+                            <td>
+                                <label>Experience Level</label><br>
+
+                                <select>
+                                    <option>Select</option>
+                                    <option>Fresher</option>
+                                    <option>1-2 Years</option>
+                                    <option>3-5 Years</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                    </table>
+                </fieldset>
+
+                <br>
+
+                <!-- Job Preferences -->
+                <!--<fieldset>
+                    <legend><b>Job Preferences</b></legend>
+
+                    <table cellpadding="10" width="80%">
+
+                        <tr>
+                            <td>
+                                <label>Desired Job Role</label><br>
+
+                                <select>
+                                    <option>Select</option>
+                                    <option>Frontend Developer</option>
+                                    <option>Backend Developer</option>
+                                    <option>UI/UX Designer</option>
+                                </select>
+                            </td>
+
+                            <td>
+                                <label>Preferred Work Location</label><br>
+                                <input type="text" placeholder="Enter location">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Expected Salary</label><br>
+                                <input type="text" placeholder="Expected salary">
+                            </td>
+
+                            <td>
+                                <label>Employment Type</label><br>
+
+                                <select>
+                                    <option>Select</option>
+                                    <option>Full Time</option>
+                                    <option>Part Time</option>
+                                    <option>Internship</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                    </table>
+                </fieldset>
+
+                <br>
+
+                <!-- Resume Upload -->
+                <!--<fieldset>
+                    <legend><b>Resume & Documents</b></legend>
+
+                    <table cellpadding="10" width="80%">
+
+                        <tr>
+                            <td>
+                                <label>Upload Resume</label><br>
+                                <input type="file" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Portfolio / GitHub / LinkedIn URL</label><br>
+                                <input type="url" placeholder="https://github.com/username">
+                            </td>
+                        </tr>
+
+                    </table>
+                </fieldset>
+
+                <br>
+
+                <!-- Additional Information -->
+                <!--<fieldset>
+                    <legend><b>Additional Information</b></legend>
+
+                    <table cellpadding="10" width="80%">
+
+                        <tr>
+                            <td>
+                                <label>Why should we hire you?</label><br>
+
+                                <textarea rows="5" cols="80"
+                                    placeholder="Write your answer here"></textarea>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Message / Comments</label><br>
+
+                                <textarea rows="4" cols="80"
+                                    placeholder="Additional comments"></textarea>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Hobbies & Interests</label><br>
+                                <input type="text" placeholder="Reading, Music, Sports">
+                            </td>
+                        </tr>
+
+                    </table>
+                </fieldset>
+
+                <br>
+
+                <!-- Declaration -->
+                <!--<fieldset>
+                    <legend><b>Declaration</b></legend>
+
+                    <input type="checkbox" required>
+                    I agree to the terms and conditions.
+                </fieldset>
+
+                <br>
+
+                <!-- Buttons -->
+                <!--<input type="submit" value="Submit Application">
+
+                <input type="reset" value="Reset Form">
+
+                <!--<h2>Student Information Table</h2>
+
+    <table border="5" cellspacing="5" cellpadding="10">
+
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+        </tr>
+
+        <tr>
+            <td>Bhavya</td>
+            <td>20</td>
+            <td>India</td>
+        </tr>
+
+        <tr>
+            <td>Rahul</td>
+            <td>22</td>
+            <td>Canada</td>
+        </tr>
+
+        <tr>
+            <td>Emma</td>
+            <td>25</td>
+            <td>USA</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Ava</td>
+            <td>24</td>
+            </td>
+            <td>UK</td>
+        </tr>
+
+        <tr>
+            <td> colspan="2">Interests: Reading, Music, Sports</td>
+        </tr>
+
+            <tr>
+
+    </table>
+
+            </form>
+
+        </main>
+
+        <br>
+
+        <footer>
+            <hr width="80%">
+            <p>&copy; 2026 Job Application Portal. All Rights Reserved.</p>
+        </footer>
+
+    </center>
+
+    <ol>
+        <li>Use of <code>&lt;fieldset&gt;</code> and <code>&lt;legend&gt;</code> to group related form elements.</li>
+        <li>Use of <code>&lt;table&gt;</code> for structured layout of form fields.</li>
+    </ol>
+
+    <ul>
+        <li>Use of various input types: <code>text</code>, <code>email</code>, <code>tel</code>, <code>date</code>, <code>radio</code>, <code>file</code>, and <code>url</code>.</li>
+        <li>Use of <code>&lt;select&gt;</code> for dropdown options.</li>
+        <li>Use of <code>&lt;textarea&gt;</code> for multi-line text input.</li>
+        <li>Use of form validation attributes like <code>required</code>.</li>
+    </ul>
+</body>
+</html>
